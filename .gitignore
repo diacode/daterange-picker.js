@@ -1,0 +1,4 @@
+/node_modules
+.ruby-gemset
+.ruby-version
+.sass-cache

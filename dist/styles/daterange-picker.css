@@ -1,0 +1,18 @@
+.daterange-picker {
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 0px black;
+  -moz-box-shadow: 1px 1px 0px black;
+  box-shadow: 1px 1px 0px black;
+}
+.daterange-picker .drp-wrapper {
+  font-size: 40px;
+  border: 1px solid #000;
+}
+.daterange-picker .drp-wrapper span {
+  border-width: 1px;
+}

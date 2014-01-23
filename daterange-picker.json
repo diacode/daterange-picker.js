@@ -1,0 +1,37 @@
+{
+	"name": "daterange-picker.js",
+	"title": "jQuery date range picker",
+	"description": "A date range picker based on Google Analytics.",
+	"keywords": [
+		"jquery",
+		"date",
+		"datepicker",
+		"plugins"
+	],
+	"version": "0.1",
+	"author": {
+		"name": "Víctor Viruete",
+		"email": "victor@diacode.com",
+		"url": "https://github.com/hopsor"
+	},
+	"maintainers": [
+		{
+			"name": "Víctor Viruete",
+			"email": "victor@diacode.com",
+			"url": "https://github.com/hopsor"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/"
+		}
+	],
+	"bugs": "https://github.com/diacode/daterange-picker.js/issues",
+	"homepage": "http://diacode.com/daterange-picker",
+	"docs": "https://github.com/diacode/daterange-picker.js#readme",
+	"download": "https://github.com/diacode/daterange-picker.js/archive/master.zip",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
