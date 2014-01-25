@@ -4,6 +4,7 @@
 	"description": "A date range picker based on Google Analytics",
 	"author": "Víctor Viruete",
 	"homepage": "https://github.com/diacode/daterange-picker.js/",
+	"version": "0.0.1",
 	"devDependencies": {
 		"grunt": "~0.4.1",
 		"grunt-cli": "~0.1.7",
