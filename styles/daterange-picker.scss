@@ -1,1 +1,113 @@
 @import "compass";
+
+/* Variables */
+$border_color: #ddd;
+
+.daterange-picker{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  float: left;
+  clear: both;
+  background-color: #fafafa;
+  border: 1px solid $border_color;
+  @include border-radius(5px);
+
+  .drp-month-browser{
+    float: left;
+    margin:10px;
+
+    .drp-prev-month, .drp-next-month{
+      float: left;
+      margin: 0px;
+      padding: 4px 6px;
+      background-color: #bbb;
+      border-style: solid;
+      border-color: $border_color;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .drp-prev-month{
+      border-width: 1px 0px 1px 1px;
+      @include border-radius(5px 0px 0px 5px);
+    }
+
+    .drp-next-month{
+      border-width: 1px 1px 1px 0px;
+      @include border-radius(0px 5px 5px 0px);
+    }
+
+    .drp-months-container{
+      float: left;
+
+      table.drp-month{
+        float: left;
+        font-size: 12px;
+        border-spacing: 0;
+        border-collapse: collapse;
+        border-top: 1px solid $border_color;
+        
+        th, td{
+          text-align: center;
+          border-bottom: 1px solid $border_color;
+          border-right: 1px solid $border_color;
+          padding: 3px;
+        }
+
+        thead{
+          th{
+            &.drp-month-name{ background-color: #bbb; }
+          }
+        }
+
+        tbody{
+          td{
+
+          }
+        }
+
+        &:first-child{
+          th, td{
+            border-left: 1px solid $border_color;
+          }
+        }
+      }
+    }
+  }
+
+  .drp-selection{
+    float: left;
+    margin: 10px;
+
+    .drp-control{
+      label{
+        display:inline-block;
+        width: 40px;
+      }
+    }
+    
+    .drp-actions{
+      margin-top:15px;
+    }
+  }
+
+  /* Input styles */
+  input[type="text"]{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid $border_color;
+    padding: 5px;
+    @include border-radius(4px);
+  }
+
+  /* Button styles */
+  .drp-button{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    border:1px solid $border_color;
+    @include border-radius(5px);
+    outline: none;
+    cursor: pointer;
+  }
+}

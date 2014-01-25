@@ -1,18 +1,103 @@
+/* Variables */
 .daterange-picker {
-  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  float: left;
+  clear: both;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 1px 0px black;
-  -moz-box-shadow: 1px 1px 0px black;
-  box-shadow: 1px 1px 0px black;
+  /* Input styles */
+  /* Button styles */
 }
-.daterange-picker .drp-wrapper {
-  font-size: 40px;
-  border: 1px solid #000;
+.daterange-picker .drp-month-browser {
+  float: left;
+  margin: 10px;
 }
-.daterange-picker .drp-wrapper span {
-  border-width: 1px;
+.daterange-picker .drp-month-browser .drp-prev-month, .daterange-picker .drp-month-browser .drp-next-month {
+  float: left;
+  margin: 0px;
+  padding: 4px 6px;
+  background-color: #bbb;
+  border-style: solid;
+  border-color: #dddddd;
+  outline: none;
+  cursor: pointer;
+}
+.daterange-picker .drp-month-browser .drp-prev-month {
+  border-width: 1px 0px 1px 1px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px 0px 0px 5px;
+  -ms-border-radius: 5px 0px 0px 5px;
+  -o-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+.daterange-picker .drp-month-browser .drp-next-month {
+  border-width: 1px 1px 1px 0px;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0px 5px 5px 0px;
+  -ms-border-radius: 0px 5px 5px 0px;
+  -o-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+}
+.daterange-picker .drp-month-browser .drp-months-container {
+  float: left;
+}
+.daterange-picker .drp-month-browser .drp-months-container table.drp-month {
+  float: left;
+  font-size: 12px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-top: 1px solid #dddddd;
+}
+.daterange-picker .drp-month-browser .drp-months-container table.drp-month th, .daterange-picker .drp-month-browser .drp-months-container table.drp-month td {
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 3px;
+}
+.daterange-picker .drp-month-browser .drp-months-container table.drp-month thead th.drp-month-name {
+  background-color: #bbb;
+}
+.daterange-picker .drp-month-browser .drp-months-container table.drp-month:first-child th, .daterange-picker .drp-month-browser .drp-months-container table.drp-month:first-child td {
+  border-left: 1px solid #dddddd;
+}
+.daterange-picker .drp-selection {
+  float: left;
+  margin: 10px;
+}
+.daterange-picker .drp-selection .drp-control label {
+  display: inline-block;
+  width: 40px;
+}
+.daterange-picker .drp-selection .drp-actions {
+  margin-top: 15px;
+}
+.daterange-picker input[type="text"] {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  padding: 5px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.daterange-picker .drp-button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
 }
